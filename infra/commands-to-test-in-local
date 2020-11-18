@@ -1,0 +1,3 @@
+terraform init
+terraform plan  --input=false --refresh=true  -var="aws_access_key_id=<ACCES_KEY_ID>" -var="aws_secret_access_key=<SECRET_ACCES_KEY>"
+terraform apply --input=false --refresh=true  -var="aws_access_key_id=<ACCES_KEY_ID>" -var="aws_secret_access_key=<SECRET_ACCES_KEY>"
